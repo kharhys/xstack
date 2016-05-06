@@ -1,0 +1,60 @@
+{
+  "name": "chat",
+  "description": "testing out feathers",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src/",
+  "keywords": [
+    "feathers"
+  ],
+  "license": "MIT",
+  "repository": {},
+  "author": {},
+  "contributors": [],
+  "bugs": {},
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "scripts": {
+    "start": "node src/",
+    "dev": "webpack --watch",
+    "build": "webpack --progress",
+    "mocha": "mocha test/ --recursive",
+    "jshint": "jshint src/. test/. --config",
+    "test": "npm run jshint && npm run mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "compression": "^1.6.1",
+    "cors": "^2.7.1",
+    "feathers": "^2.0.1",
+    "feathers-authentication": "^0.7.7",
+    "feathers-configuration": "^0.2.3",
+    "feathers-errors": "^2.1.0",
+    "feathers-hooks": "^1.5.2",
+    "feathers-nedb": "^2.2.3",
+    "feathers-rest": "^1.3.0",
+    "feathers-socketio": "^1.4.0",
+    "nedb": "^1.8.0",
+    "passport": "^0.3.2",
+    "react": "^15.0.2",
+    "redux": "^3.5.2",
+    "redux-model-utils": "^0.5.1",
+    "redux-thunk": "^2.0.1",
+    "serve-favicon": "^2.3.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.8.0",
+    "babel-preset-es2015-native-modules": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.4.5",
+    "npm-install-webpack-plugin": "^3.1.1",
+    "request": "^2.72.0",
+    "webpack": "^2.1.0-beta.6",
+    "webpack-livereload-plugin": "^0.8.1"
+  }
+}
